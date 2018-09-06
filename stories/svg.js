@@ -18,7 +18,7 @@ storiesOf('SVG', module)
     {
       [
         'angle_bracket_up', 'angle_bracket_down', 'angle_bracket_left', 'angle_bracket_right',
-        'triangle_up', 'triangle_down',
+        'triangle_up', 'triangle_down','angle_up',
       ]
       .map(it => <SVG key={it} name={it} />)
     }
@@ -133,7 +133,7 @@ storiesOf('SVG', module)
         'file', 'input', 'textarea',
         'map', 'select', 'topbar',
         'eq_triangle', 'triangle',
-        'carousel', 'dropdown'
+        'carousel', 'dropdown',
       ]
       .map(it => <SVG key={it} name={`design/${it}`} />)
     }
@@ -142,7 +142,7 @@ storiesOf('SVG', module)
     <h4>Shortcut widgets</h4>
     <p className="widget shortcut">
     {
-      ['text', 'rectangle', 'circle', 'line', 'image']
+      ['text', 'rectangle', 'circle', 'line', 'image', 'group']
       .map(it => <SVG key={it} name={`design/${it}`} />)
     }
     </p>
@@ -168,7 +168,7 @@ storiesOf('SVG', module)
     <h3>Misc.</h3>
     <p>
     {
-      ['settings', 'trash', 'copy', 'enchase']
+      ['settings', 'trash', 'copy', 'enchase', 'page_selection']
       .map(it => <SVG key={it} name={`design/${it}`} />)
     }
     </p>
